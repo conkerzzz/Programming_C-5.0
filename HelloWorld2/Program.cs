@@ -1,6 +1,6 @@
 ﻿using System;
 
-
+#warning This is my custom warning.
 namespace HelloWorld2
 {
     public class Program
