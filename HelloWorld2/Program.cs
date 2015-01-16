@@ -2,6 +2,7 @@
 
 #warning This is my custom warning.
 namespace HelloWorld2
+#region
 {
     public class Program
     {
@@ -11,3 +12,4 @@ namespace HelloWorld2
         }
     }
 }
+#endregion
