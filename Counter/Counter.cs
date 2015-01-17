@@ -11,16 +11,34 @@ namespace Counter
      * */
     public class Counter
     {
-        private int _count;
+        private readonly int _count;
         private static int _totalCount;
 
-        public int GetNextValue()
-        {
-            this._count += 1; //Optionally  Imay use "this" keyword to indicate explicitly that _count is a member of the instance on which the GetNextValue method was invoked. Explicit member access through "this" is sometimes necessary due to name collisions. 
-            _totalCount += 1; //Notice that I'm free to use this static field inside GetNextValue, in exactly the same way as the non-static count.
-            return _count;
+        public Counter(){
+            _count = 0;
         }
-        public static int TotalCount //Static, so has only access to other static members. 
+
+        private Counter(int count){
+            _count = count;
+        }
+
+        public Counter GetNextValue()
+        {
+            _totalCount += 1; //Notice that I'm free to use this static field inside GetNextValue, in exactly the same way as the non-static count.
+            return new Counter(_count + 1);
+        }
+        public static Counter operator ++(Counter input) 
+        {
+            return input.GetNextValue();
+        }
+        public int Count
+        {
+            get
+            {
+                return _count;
+            }
+        }
+        public static int TotalCount 
         {
             get
             {
