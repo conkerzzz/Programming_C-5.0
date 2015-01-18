@@ -1,7 +1,7 @@
 ﻿using System;
 
-#warning This is my custom warning.
-namespace HelloWorld2
+
+namespace HelloWorld
 #region
 {
     public class Program

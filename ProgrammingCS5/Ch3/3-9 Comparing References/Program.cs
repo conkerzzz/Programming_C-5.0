@@ -13,7 +13,7 @@ namespace Counter
             //Ex. 3-9, comparing references
             Counter c1 = new Counter();
             c1++;
-            Counter c2 = c1; 
+            Counter c2 = c1;
             //Copying references. Any type defined with the class keyword will be a reference type, meaning that any
             //variable of this type is merely a reference to an instance of the type.
             Counter c3 = new Counter();
@@ -32,7 +32,7 @@ namespace Counter
             // Here, only c1 and c2 are considered to be the same thing. It will be the same output as the above lines because Counter has not defined a custom meaning for ==.
             Console.WriteLine(object.ReferenceEquals(c1, c2));
             Console.WriteLine(object.ReferenceEquals(c1, c3));
-            Console.WriteLine(object.ReferenceEquals(c2, c3));          
+            Console.WriteLine(object.ReferenceEquals(c2, c3));
         }
     }
 }

@@ -3,11 +3,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2540C427-47C0-4ACA-B74C-BE1DE6616617}</ProjectGuid>
+    <ProjectGuid>{3276B216-F45E-4E22-9CA7-D800F352CDC5}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>HelloWorld2.Tests</RootNamespace>
-    <AssemblyName>HelloWorld2.Tests</AssemblyName>
+    <RootNamespace>HelloWorld.Tests</RootNamespace>
+    <AssemblyName>HelloWorld.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -54,9 +54,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\HelloWorld2\HelloWorld2.csproj">
-      <Project>{c80810dc-e2b9-49e2-a783-eda8989d89a2}</Project>
-      <Name>HelloWorld2</Name>
+    <ProjectReference Include="..\HelloWorld\HelloWorld.csproj">
+      <Project>{3221c7c3-e8f0-45ec-bb3f-78deed0f4636}</Project>
+      <Name>HelloWorld</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>

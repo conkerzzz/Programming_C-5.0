@@ -14,11 +14,13 @@ namespace Counter
         private readonly int _count;
         private static int _totalCount;
 
-        public Counter(){
+        public Counter()
+        {
             _count = 0;
         }
 
-        private Counter(int count){
+        private Counter(int count)
+        {
             _count = count;
         }
 
@@ -27,7 +29,7 @@ namespace Counter
             _totalCount += 1; //Notice that I'm free to use this static field inside GetNextValue, in exactly the same way as the non-static count.
             return new Counter(_count + 1);
         }
-        public static Counter operator ++(Counter input) 
+        public static Counter operator ++(Counter input)
         {
             return input.GetNextValue();
         }
@@ -38,7 +40,7 @@ namespace Counter
                 return _count;
             }
         }
-        public static int TotalCount 
+        public static int TotalCount
         {
             get
             {

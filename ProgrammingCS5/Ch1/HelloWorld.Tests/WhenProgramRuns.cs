@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace HelloWorld2.Tests
+namespace HelloWorld.Tests
 {
     [TestClass]
     public class WhenProgramRuns
@@ -9,7 +9,8 @@ namespace HelloWorld2.Tests
         private string _consoleOutput;
 
         [TestInitialize]
-        public void Initialize(){
+        public void Initialize()
+        {
             var w = new System.IO.StringWriter();
             Console.SetOut(w);
             Program.Main(new string[0]);
