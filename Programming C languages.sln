@@ -8,6 +8,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ch1", "Ch1", "{9D990379-5F70-488E-B4AE-530E2B0875B9}"
 	ProjectSection(SolutionItems) = preProject
 		Cppp\Ch1\Ex1_12.md = Cppp\Ch1\Ex1_12.md
+		Cppp\Ch1\ex1_13.md = Cppp\Ch1\ex1_13.md
 		Cppp\Ch1\ex1_7.md = Cppp\Ch1\ex1_7.md
 	EndProjectSection
 EndProject
