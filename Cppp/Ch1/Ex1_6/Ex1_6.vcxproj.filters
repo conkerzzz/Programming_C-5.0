@@ -15,11 +15,11 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\..\..\Ex 1_6.md" />
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="ex1_6.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Ex 1_6.md" />
   </ItemGroup>
 </Project>

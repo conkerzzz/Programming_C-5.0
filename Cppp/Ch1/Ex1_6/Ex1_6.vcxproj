@@ -78,10 +78,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <None Include="..\..\..\Ex 1_6.md" />
+    <ClCompile Include="ex1_6.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ex1_6.cpp" />
+    <None Include="Ex 1_6.md" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
