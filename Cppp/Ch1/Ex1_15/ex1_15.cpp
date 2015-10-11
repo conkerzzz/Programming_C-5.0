@@ -1,4 +1,4 @@
-//I predicted equal inputs would sum the numbers, but this is not he case.
+//I predicted equal inputs would sum the numbers, but this is not the case.
 //E. g. 1 and 1 yields 1. 
 //Ah, of course, the correct answer is that given equal inputs, it will add the number to zero (sum), hence 1.
 
